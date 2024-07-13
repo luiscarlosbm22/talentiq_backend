@@ -8,8 +8,8 @@ export const emailRegistro = async (datos) => {
         port: 465,
         secure: true,
         auth: {
-            user: "prueba@prueba.com",
-            pass: "prueba123"
+            user: "ventas@meganet.pe",
+            pass: "MenDark@0809"
         }
     });
 
