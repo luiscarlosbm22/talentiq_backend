@@ -26,7 +26,7 @@ export const emailRegistro = async (datos) => {
     //Informacion del email
 
     const info = await transport.sendMail({
-        from: '"TalentIQ - Portal" <ventas@meganet.pe>',
+        from: '"TalentIQ - Portal" <TalentIQperu@TalentIQ.com>',
         to: email,
         subject: "TalentIQ - Comprueba tu Cuenta",
         text: "Comprueba tu cuenta en TalentIQ",
